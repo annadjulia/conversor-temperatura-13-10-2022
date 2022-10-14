@@ -43,7 +43,7 @@ function converter(){
 
     console.log(Tfahrenheit,Tcelsius,Tkelvin,Trankine)
 
-    document.getElementById('fahrenheit').innerText=Tfahrenheit;
+    document.getElementById('fahrenheit').toFixed(2).innerText=Tfahrenheit;
     document.getElementById('celsius').innerText=Tcelsius;
     document.getElementById('kelvin').innerText=Tkelvin;
     document.getElementById('rankine').innerText=Trankine;
